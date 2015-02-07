@@ -1,0 +1,17 @@
+
+div.bee {
+
+    text-align: center;
+    display: inline-block;
+}
+
+div.bee-image {
+
+    margin: 0 auto;
+}
+
+div.bee-title {
+
+    margin: .3em auto;
+
+}
