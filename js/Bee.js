@@ -128,7 +128,7 @@ Bee.prototype.bounds=function($o,type){
  */
  Bee.prototype.inside=function($object) {
 
-	var $self=$(this.selector());
+	var $self=$(this.selector()).find(".bee-image img");
 
  	var me=this.bounds($self,"outer");
  	var it=this.bounds($object,"inner");
